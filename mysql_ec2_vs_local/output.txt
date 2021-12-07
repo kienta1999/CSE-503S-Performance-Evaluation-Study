@@ -4,3 +4,9 @@ Total time for 1000 INSERT: 0.5144567489624023
 Total time for 1000 SELECT: 2.1050355434417725
 Total time for 1000 UPDATE: 2.6520512104034424
 Total time for 1000 DELETE: 2.6174070835113525
+---------------------------------------------------------
+EC2
+Total time for 1000 INSERT: 0.13956403732299805
+Total time for 1000 SELECT: 0.9003980159759521
+Total time for 1000 UPDATE: 0.6053688526153564
+Total time for 1000 DELETE: 0.5831236839294434
