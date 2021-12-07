@@ -1,0 +1,185 @@
+GET http://ec2-18-188-140-131.us-east-2.compute.amazonaws.com/stress-test/get.php
+
+This is ApacheBench, Version 2.3 <$Revision: 1843412 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking ec2-18-188-140-131.us-east-2.compute.amazonaws.com (be patient)
+
+
+Server Software:        Apache/2.4.51
+Server Hostname:        ec2-18-188-140-131.us-east-2.compute.amazonaws.com
+Server Port:            80
+
+Document Path:          /stress-test/get.php
+Document Length:        52 bytes
+
+Concurrency Level:      100
+Time taken for tests:   2.417 seconds
+Complete requests:      500
+Failed requests:        0
+Total transferred:      118500 bytes
+HTML transferred:       26000 bytes
+Requests per second:    206.86 [#/sec] (mean)
+Time per request:       483.430 [ms] (mean)
+Time per request:       4.834 [ms] (mean, across all concurrent requests)
+Transfer rate:          47.88 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       31   73 149.1     53    1068
+Processing:    43  353  87.5    357     662
+Waiting:       42  350  87.1    356     660
+Total:         75  426 174.0    410    1457
+
+Percentage of the requests served within a certain time (ms)
+  50%    410
+  66%    430
+  75%    455
+  80%    466
+  90%    511
+  95%    563
+  98%   1401
+  99%   1411
+ 100%   1457 (longest request)
+------------------------------------------------------------------------------------------------------------------
+POST http://ec2-18-188-140-131.us-east-2.compute.amazonaws.com/stress-test/post.php
+
+This is ApacheBench, Version 2.3 <$Revision: 1843412 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking ec2-18-188-140-131.us-east-2.compute.amazonaws.com (be patient)
+
+
+Server Software:        Apache/2.4.51
+Server Hostname:        ec2-18-188-140-131.us-east-2.compute.amazonaws.com
+Server Port:            80
+
+Document Path:          /stress-test/post.php
+Document Length:        Variable
+
+Concurrency Level:      100
+Time taken for tests:   1.589 seconds
+Complete requests:      500
+Failed requests:        0
+Total transferred:      118000 bytes
+Total body sent:        119500
+HTML transferred:       25500 bytes
+Requests per second:    314.64 [#/sec] (mean)
+Time per request:       317.824 [ms] (mean)
+Time per request:       3.178 [ms] (mean, across all concurrent requests)
+Transfer rate:          72.51 [Kbytes/sec] received
+                        73.44 kb/s sent
+                        145.95 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       33   57  11.0     53      80
+Processing:    37  223  82.1    201    1148
+Waiting:       33  219  82.4    191    1148
+Total:        100  280  83.2    255    1202
+
+Percentage of the requests served within a certain time (ms)
+  50%    255
+  66%    311
+  75%    329
+  80%    337
+  90%    354
+  95%    392
+  98%    437
+  99%    583
+ 100%   1202 (longest request)
+------------------------------------------------------------------------------------------------------------------
+GET http://ec2-18-188-140-131.us-east-2.compute.amazonaws.com:3010/
+
+This is ApacheBench, Version 2.3 <$Revision: 1843412 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking ec2-18-188-140-131.us-east-2.compute.amazonaws.com (be patient)
+
+
+Server Software:        
+Server Hostname:        ec2-18-188-140-131.us-east-2.compute.amazonaws.com
+Server Port:            3010
+
+Document Path:          /
+Document Length:        52 bytes
+
+Concurrency Level:      100
+Time taken for tests:   0.833 seconds
+Complete requests:      500
+Failed requests:        0
+Total transferred:      145500 bytes
+HTML transferred:       26000 bytes
+Requests per second:    600.47 [#/sec] (mean)
+Time per request:       166.536 [ms] (mean)
+Time per request:       1.665 [ms] (mean, across all concurrent requests)
+Transfer rate:          170.64 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       39   61   9.6     60      83
+Processing:    32   75  11.8     76     100
+Waiting:       32   69  10.7     71      97
+Total:         86  136  15.5    138     176
+
+Percentage of the requests served within a certain time (ms)
+  50%    138
+  66%    141
+  75%    144
+  80%    145
+  90%    160
+  95%    165
+  98%    167
+  99%    173
+ 100%    176 (longest request)
+------------------------------------------------------------------------------------------------------------------
+POST http://ec2-18-188-140-131.us-east-2.compute.amazonaws.com:3010/
+
+This is ApacheBench, Version 2.3 <$Revision: 1843412 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking ec2-18-188-140-131.us-east-2.compute.amazonaws.com (be patient)
+
+
+Server Software:        
+Server Hostname:        ec2-18-188-140-131.us-east-2.compute.amazonaws.com
+Server Port:            3010
+
+Document Path:          /
+Document Length:        Variable
+
+Concurrency Level:      100
+Time taken for tests:   0.936 seconds
+Complete requests:      500
+Failed requests:        0
+Total transferred:      146000 bytes
+Total body sent:        112000
+HTML transferred:       26500 bytes
+Requests per second:    534.08 [#/sec] (mean)
+Time per request:       187.238 [ms] (mean)
+Time per request:       1.872 [ms] (mean, across all concurrent requests)
+Transfer rate:          152.30 [Kbytes/sec] received
+                        116.83 kb/s sent
+                        269.13 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       42   60   9.0     58      87
+Processing:    42   81  28.8     80     573
+Waiting:       42   72  27.5     68     573
+Total:         96  140  30.8    140     660
+
+Percentage of the requests served within a certain time (ms)
+  50%    140
+  66%    148
+  75%    150
+  80%    153
+  90%    173
+  95%    178
+  98%    180
+  99%    181
+ 100%    660 (longest request)
