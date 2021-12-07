@@ -1,0 +1,6 @@
+---------------------------------------------------------
+Local Laptop
+Total time for 1000 INSERT: 0.5144567489624023
+Total time for 1000 SELECT: 2.1050355434417725
+Total time for 1000 UPDATE: 2.6520512104034424
+Total time for 1000 DELETE: 2.6174070835113525
